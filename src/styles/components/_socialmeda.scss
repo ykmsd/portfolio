@@ -1,0 +1,27 @@
+.social-media {
+  margin-bottom: 10rem;
+  @media (min-width: $desktop-breakpoint) {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+  
+  &__title {
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: $l-size;
+  }
+
+  &__selections {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    font-size: 5rem;
+    text-decoration: underline $main-blue;
+    :hover {
+      text-decoration: underline $main-blue;
+    }
+  }
+}

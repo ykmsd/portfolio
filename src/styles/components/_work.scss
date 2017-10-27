@@ -1,0 +1,84 @@
+.works {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  @media (min-width: $desktop-breakpoint) {
+    width: 70%;
+    max-width: 880px;
+    margin-bottom: 30rem;
+  }
+
+  &__title {
+    font-size: 5rem;
+    margin-bottom: $l-size;
+    width: 100%;
+    text-align: center;
+    @media (min-width: $desktop-breakpoint) {
+      font-size: 6rem;
+    }
+  }
+
+  &__emoji {
+    animation: hue-change 10s infinite;
+    @keyframes hue-change {
+      0%, 100% {
+        filter: hue-rotate(0);
+      }
+      50% {
+        filter: hue-rotate(-30deg);
+      }
+    }
+  }
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+  
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  &__wrapper {
+    margin: 0 auto;
+  }
+
+  &__img {
+    align-self: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    width: 100%;
+    margin-bottom: $l-size;
+
+    @media (min-width: $desktop-breakpoint) {
+      width: 40rem;
+      margin-bottom: 0;
+      margin-right: $s-size;
+    }
+  }
+
+  &__description {
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    h4 {
+      margin: 0;
+      font-size: $m-size;
+      font-family: 'Patua One', cursive;
+    }
+    a {
+      text-decoration: underline $main-blue;
+      font-weight: bold;
+    }
+    @media (min-width: $desktop-breakpoint) {
+      width: 40rem;
+    }
+  }
+  &__code {
+    a {
+      margin-right: $l-size;
+    }
+  }
+}
