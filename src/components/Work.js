@@ -36,7 +36,7 @@ const Chingu = () => (
     </a>
     <div className="work__description">
       <h4>Airbnb Clone</h4>
-      <p>I joined <a href="https://chingu-cohorts.github.io/chingu-directory/" target="_blank" rel="noopener noreferrer">Chingu</a>, a helpful community for developpers and work in a team to build something together. Our team decided to clone Airbnb website (still in progress). So far I have built carousels and filters.</p>
+      <p>I joined <a href="https://chingu-cohorts.github.io/chingu-directory/" target="_blank" rel="noopener noreferrer">Chingu</a>, a helpful community for developpers, and we work in a team to build something together. Our team decided to clone Airbnb website (still in progress). So far I have built carousels and filters.</p>
       <div className="work__code">
         <a className="work__links" href="https://github.com/chingu-coders/Voyage2-Bears-16" target="_blank" rel="noopener noreferrer">Code</a>
       </div>

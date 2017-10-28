@@ -3,8 +3,7 @@
   margin-bottom: 10rem;
   @media (min-width: $desktop-breakpoint) {
     width: 70%;
-    max-width: 880px;
-    margin-bottom: 30rem;
+    max-width: 88rem;
   }
 
   &__title {
@@ -18,13 +17,22 @@
   }
 
   &__emoji {
-    animation: hue-change 10s infinite;
-    @keyframes hue-change {
-      0%, 100% {
-        filter: hue-rotate(0);
-      }
-      50% {
-        filter: hue-rotate(-30deg);
+    display: inline-block;
+    &:hover {
+      animation: shiny 1s infinite;
+      @keyframes shiny {
+        0% {
+          transform: scale(1) rotate(0deg);
+        }
+        10% {
+          transform: scale(0.8) rotate(-5deg);
+        }
+        40% {
+          transform: scale(1.2) rotate(3deg);
+        }
+        100% {
+          transform: scale(1.1) rotate(10deg);
+        }
       }
     }
   }
