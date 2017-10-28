@@ -253,8 +253,7 @@ h1, h2, h3, p {
     line-height: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    text-align: justify; }
+    justify-content: space-around; }
     .work__description h4 {
       margin: 0;
       font-size: 2rem;
@@ -264,7 +263,8 @@ h1, h2, h3, p {
       font-weight: bold; }
     @media (min-width: 1024px) {
       .work__description {
-        width: 40rem; } }
+        width: 40rem;
+        text-align: justify; } }
   .work__code a {
     margin-right: 4rem; }
 
