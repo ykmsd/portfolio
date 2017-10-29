@@ -8,7 +8,7 @@ const WorkData = [
   {
     name: 'Weather Clock',
     img: WeatherClock,
-    description: `As I'm from Tokyo, live in Paris, and have many friends in SF, I wanted to build something I can easily see the time and weather for these cities.
+    description: `As I'm from Tokyo, live in Paris, and have many friends in SF, I wanted to build an app that lets me easily see the time and weather for these cities.
     For practice, I used async & await, flexbox, and CSS animation.`,
     demo_link: 'https://ykmsd.github.io/weather-clock/',
     code_link: 'https://github.com/ykmsd/weather-clock',
@@ -23,7 +23,7 @@ const WorkData = [
   {
     name: 'What Should I Eat?',
     img: WhatShouldIEat,
-    description: 'This app randomely suggests popular Asian restaurants in Paris. I love Asian food and it\'s good to get inspiration for lunch/dinner!',
+    description: 'This app randomly suggests popular Asian restaurants in Paris. I love Asian food and it\'s good to get inspiration for lunch/dinner!',
     demo_link: 'https://ykmsd.github.io/what-should-i-eat/',
     code_link: 'https://github.com/ykmsd/what-should-i-eat',
   },
@@ -36,7 +36,7 @@ const Chingu = () => (
     </a>
     <div className="work__description">
       <h4>Airbnb Clone</h4>
-      <p>I joined <a href="https://chingu-cohorts.github.io/chingu-directory/" target="_blank" rel="noopener noreferrer">Chingu</a>, a helpful community for developpers, and we work in a team to build something together. Our team decided to clone Airbnb website (still in progress). So far I have built carousels and filters.</p>
+      <p>I am a member of <a href="https://chingu-cohorts.github.io/chingu-directory/" target="_blank" rel="noopener noreferrer">Chingu</a>, a collaborative community for developpers. Our team decided to clone the Airbnb website from scratch (still in progress). So far I have built carousels and filters and helped others to improve the stylying of their components.</p>
       <div className="work__code">
         <a className="work__links" href="https://github.com/chingu-coders/Voyage2-Bears-16" target="_blank" rel="noopener noreferrer">Code</a>
       </div>
