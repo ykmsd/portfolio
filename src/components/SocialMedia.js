@@ -31,7 +31,7 @@ const SocialMedia = () => (
         SocialMediaData.map(media => (
           <li className="social-media__icon">
             <a href={media.link} target="_blank" rel="noopener noreferrer">
-              <i className={`fa fa-${media.name}`} aria-hidden="true" title="github" />
+              <i className={`fa fa-${media.name}`} aria-hidden="true" />
             </a>
           </li>
         ))

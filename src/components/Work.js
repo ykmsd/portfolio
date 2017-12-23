@@ -1,10 +1,18 @@
 import React from 'react';
+import SpotifySearch from '../img/spotify-search.png';
 import WeatherClock from '../img/weather-clock.png';
 import WhatShouldIEat from '../img/what-should-i-eat.png';
 import MultipleTimers from '../img/multiple-timers.png';
 import AirbnbClone from '../img/airbnb-clone.png';
 
 const WorkData = [
+  {
+    name: 'Spotify Search',
+    img: SpotifySearch,
+    description: 'You can search albums by artist. Made with Spotify api, React & Redux, React Router, and Ant Design. You need to have a Spotify account to see the app.',
+    demo_link: 'https://spotify-search-5ad2e.firebaseapp.com/',
+    code_link: 'https://github.com/ykmsd/spotify-search',
+  },
   {
     name: 'Weather Clock',
     img: WeatherClock,
@@ -36,8 +44,9 @@ const Chingu = () => (
     </a>
     <div className="work__description">
       <h4>Airbnb Clone</h4>
-      <p>I am a member of <a href="https://chingu-cohorts.github.io/chingu-directory/" target="_blank" rel="noopener noreferrer">Chingu</a>, a collaborative community for developers. Our team decided to clone the Airbnb website from scratch (still in progress). So far I have built carousels and filters and helped others to improve the styling of their components.</p>
+      <p>I am a member of <a href="https://chingu-cohorts.github.io/chingu-directory/" target="_blank" rel="noopener noreferrer">Chingu</a>, a collaborative community for developers. Our team decided to clone the Airbnb website from scratch. I have built carousels and filters and helped others to improve the styling of their components.</p>
       <div className="work__code">
+        <a className="work__links" href="https://chingu-airbnb-clone.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a>
         <a className="work__links" href="https://github.com/chingu-coders/Voyage2-Bears-16" target="_blank" rel="noopener noreferrer">Code</a>
       </div>
     </div>
